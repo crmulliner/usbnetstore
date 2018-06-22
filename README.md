@@ -16,8 +16,9 @@ This works like in the following:
 
 ## Build
 
-Get Buildroot 2018.02 https://buildroot.org/download.html
-checkout this repo
+Get Buildroot 2018.02 from https://buildroot.org/download.html
+
+checkout this repository
 
 ```
 mkdir out
