@@ -1,0 +1,5 @@
+#!/bin/sh
+
+modprobe dwc2
+
+exit 0

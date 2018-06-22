@@ -1,0 +1,7 @@
+#!/bin/sh
+
+modprobe brcmfmac
+
+wpa_supplicant -i wlan0 -c /etc/wpa_supplicant.conf &
+
+exit 0
