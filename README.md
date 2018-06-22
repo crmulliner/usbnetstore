@@ -7,6 +7,8 @@ see a USB flash drive.
 The neat thing is that you can transfer files to that flash drive from your computer without physically unplugging
 the PiZW.
 
+[SmartTV] - USB - [PiZW-USBNETSTORE] - WiFi - desktop computer
+
 This works like in the following:
 - plug PiZW into target device
 - ssh user@PiZW -C su -c /usr/sbin/usbstorage.sh start (PiZW is recognized as a USB device)
@@ -44,6 +46,6 @@ You can do this before building in usbnetstore/board/raspberrypi0w/rootfs_overla
 or from a console (if you have a monitor and keyboard attached to your PiZW)
 
 ### Passwords
-root has now password
+root has no password
 
 user account 'user' with password 'rpzwusbnet'
