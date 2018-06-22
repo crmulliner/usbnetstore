@@ -36,11 +36,13 @@ Now you just need to create a data partition using the leftover space on the SD 
 ## Usage 
 
 Adjust /etc/wpa_supplicate.conf for your Wifi network
+
 Adjust /etc/network/interfaces for your network
 
 You can do this before building in usbnetstore/board/raspberrypi0w/rootfs_overlay
 or from a console (if you have a monitor and keyboard attached to your PiZW)
 
 ### Passwords
-root:<no pasword set>
-user:rpzwusbnet
+root has now password
+
+user account 'user' with password 'rpzwusbnet'
